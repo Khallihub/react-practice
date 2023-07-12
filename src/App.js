@@ -1,5 +1,5 @@
 import "./App.css";
-import "./components/Expenses";
+import Expenses from "./components/Expenses"; 
 function App() {
   const expenses = [
     {
@@ -26,7 +26,7 @@ function App() {
     <div className="App">
       <h2>React Practice</h2>
       <Expenses lst={expenses} ></Expenses>
-    </div>
+    </div> 
   );
 }
 
