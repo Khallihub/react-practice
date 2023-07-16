@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 3px solid rgb(163, 46, 3);
+  padding: 5px 15px;
+}
+
+.summary {
+  display: flex;
+  width: 250px;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0;
+}
+
+.price {
+  color: rgb(163, 46, 3);
+  padding: 3px 5px;
+}
+
+.amount {
+  outline: 1px solid black;
+  border-radius: 5px;
+  padding: 3px 5px;
+  font-weight: bold;
+}
+
+.actions button {
+    font-weight: 900;
+    border: 1px solid rgb(163, 46, 3);
+    padding: 8px 25px;
+    border-radius: 8px ;
+    margin: 5px;
+    color: rgb(163, 46, 3);
+}
