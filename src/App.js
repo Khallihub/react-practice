@@ -69,6 +69,8 @@ import CartProvider from "./123/store/CartProvider";
 //   );
 // }
 
+
+// 123
 function App() {
   const [cartIsShown, setCartIsShown] = useState(false);
 
